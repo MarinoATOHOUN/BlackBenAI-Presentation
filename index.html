@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackBenAI - L'avenir de l'IA en Afrique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #1a1a2e;
+            color: #ffffff;
+            scroll-behavior: smooth;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #ff6b6b, #f8c4d8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .glow {
+            text-shadow: 0 0 10px rgba(255, 107, 107, 0.7);
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(255, 107, 107, 0.2), 0 10px 10px -5px rgba(255, 107, 107, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div id="hero" class="relative h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden">
+        <div id="vanta-globe" class="absolute inset-0 z-0"></div>
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <div data-aos="fade-down" data-aos-duration="1000">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 glow">
+                    <span class="gradient-text">BlackBenAI</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-gray-300">
+                    Construire l'avenir de l'IA en Afrique
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#investir" class="px-8 py-3 bg-gradient-to-r from-[#ff6b6b] to-[#f8c4d8] text-white font-semibold rounded-full hover:shadow-lg transition-all duration-300">
+                        Investir
+                    </a>
+                    <a href="#projets" class="px-8 py-3 border-2 border-[#ff6b6b] text-[#ff6b6b] font-semibold rounded-full hover:bg-[#ff6b6b] hover:text-white transition-all duration-300">
+                        Découvrir nos projets
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-8 left-0 right-0 flex justify-center">
+            <a href="#about" class="animate-bounce">
+                <i data-feather="chevron-down" class="text-white w-10 h-10"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4" style="background-color: #16213e;">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">À propos de <span class="gradient-text">BlackBenAI</span></h2>
+                <div class="w-24 h-1 bg-[#ff6b6b] mx-auto mb-8"></div>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Fondée en août 2025 par Marino ATOHOUN, BlackBenAI est une startup béninoise ambitieuse déterminée à devenir un leader de l'intelligence artificielle en Afrique.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="p-8 rounded-xl bg-[#0f3460] hover:bg-opacity-90 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="target" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-center">Mission</h3>
+                    <p class="text-gray-300">
+                        Rendre l'Afrique autonome en intelligence artificielle, en développant des solutions adaptées aux besoins locaux.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-xl bg-[#0f3460] hover:bg-opacity-90 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="heart" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-center">Valeurs</h3>
+                    <p class="text-gray-300">
+                        Autonomie, innovation, accessibilité et impact social. Nous croyons en une IA éthique et inclusive.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-xl bg-[#0f3460] hover:bg-opacity-90 transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i data-feather="eye" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-center">Vision</h3>
+                    <p class="text-gray-300">
+                        Positionner l'Afrique comme acteur majeur de l'IA mondiale, avec des solutions pensées par et pour les Africains.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Opportunity Section -->
+    <section id="market" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Marché & <span class="gradient-text">Opportunité</span></h2>
+                <div class="w-24 h-1 bg-[#ff6b6b] mx-auto mb-8"></div>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    L'Afrique représente le prochain grand marché de l'IA, avec des besoins uniques et un potentiel inexploité.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <img src="http://static.photos/technology/1024x576/1" alt="Croissance marché IA Afrique" class="rounded-xl shadow-2xl">
+                </div>
+                <div data-aos="fade-left">
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold mb-4 flex items-center">
+                            <i data-feather="trending-up" class="w-8 h-8 mr-3 text-[#ff6b6b]"></i>
+                            Croissance exponentielle
+                        </h3>
+                        <p class="text-gray-300">
+                            Le marché africain de l'IA devrait croître de 35% par an d'ici 2030, avec des applications clés dans l'éducation, la santé et les services financiers.
+                        </p>
+                    </div>
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold mb-4 flex items-center">
+                            <i data-feather="zap" class="w-8 h-8 mr-3 text-[#ff6b6b]"></i>
+                            Besoins uniques
+                        </h3>
+                        <p class="text-gray-300">
+                            Des défis spécifiques comme l'accès limité à l'éducation, les infrastructures et les barrières linguistiques créent des opportunités uniques pour des solutions IA adaptées.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4 flex items-center">
+                            <i data-feather="compass" class="w-8 h-8 mr-3 text-[#ff6b6b]"></i>
+                            Premier entrant
+                        </h3>
+                        <p class="text-gray-300">
+                            BlackBenAI se positionne comme un pionnier dans l'espace francophone, avec une connaissance intime du terrain et des besoins locaux.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="py-20 px-4" style="background-color: #0f3460;">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Nos <span class="gradient-text">Projets</span></h2>
+                <div class="w-24 h-1 bg-[#ff6b6b] mx-auto mb-8"></div>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Des prototypes innovants démontrant notre capacité à répondre aux défis africains avec des solutions IA.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-[#16213e] rounded-xl p-6 transition-all duration-300 hover:border-[#ff6b6b] border border-transparent" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="book" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">EduShare</h3>
+                    <p class="text-gray-300 mb-4">
+                        Plateforme de partage éducatif de PDF avec analyse IA pour personnaliser l'apprentissage.
+                    </p>
+                    <span class="inline-block px-3 py-1 text-sm bg-[#ff6b6b] bg-opacity-20 text-[#ff6b6b] rounded-full">Éducation</span>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card bg-[#16213e] rounded-xl p-6 transition-all duration-300 hover:border-[#ff6b6b] border border-transparent" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="shield" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">GuardClause</h3>
+                    <p class="text-gray-300 mb-4">
+                        Analyse automatique des Conditions Générales d'Utilisation pour protéger les consommateurs.
+                    </p>
+                    <span class="inline-block px-3 py-1 text-sm bg-[#ff6b6b] bg-opacity-20 text-[#ff6b6b] rounded-full">Sécurité</span>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card bg-[#16213e] rounded-xl p-6 transition-all duration-300 hover:border-[#ff6b6b] border border-transparent" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="eye" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">SecurLog</h3>
+                    <p class="text-gray-300 mb-4">
+                        Système de surveillance préventive par IA pour la sécurité publique et privée.
+                    </p>
+                    <span class="inline-block px-3 py-1 text-sm bg-[#ff6b6b] bg-opacity-20 text-[#ff6b6b] rounded-full">Sécurité</span>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card bg-[#16213e] rounded-xl p-6 transition-all duration-300 hover:border-[#ff6b6b] border border-transparent" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="users" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">WithSign</h3>
+                    <p class="text-gray-300 mb-4">
+                        Traduction en temps réel du langage des signes pour une meilleure inclusion sociale.
+                    </p>
+                    <span class="inline-block px-3 py-1 text-sm bg-[#ff6b6b] bg-opacity-20 text-[#ff6b6b] rounded-full">Accessibilité</span>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card bg-[#16213e] rounded-xl p-6 transition-all duration-300 hover:border-[#ff6b6b] border border-transparent" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="map" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">HowRoadCode</h3>
+                    <p class="text-gray-300 mb-4">
+                        Reconnaissance de panneaux routiers pour améliorer la sécurité routière en Afrique.
+                    </p>
+                    <span class="inline-block px-3 py-1 text-sm bg-[#ff6b6b] bg-opacity-20 text-[#ff6b6b] rounded-full">Mobilité</span>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card bg-[#16213e] rounded-xl p-6 transition-all duration-300 hover:border-[#ff6b6b] border border-transparent" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 bg-[#ff6b6b] rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="bar-chart-2" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">MyCompanyGen</h3>
+                    <p class="text-gray-300 mb-4">
+                        Générateur automatique de rapports d'entreprise pour les PME africaines.
+                    </p>
+                    <span class="inline-block px-3 py-1 text-sm bg-[#ff6b6b] bg-opacity-20 text-[#ff6b6b] rounded-full">Business</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Potential Section -->
+    <section id="potential" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Notre <span class="gradient-text">Potentiel</span> de Développement</h2>
+                <div class="w-24 h-1 bg-[#ff6b6b] mx-auto mb-8"></div>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Des prototypes aux solutions à grande échelle : notre roadmap vers l'impact continental.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-5xl font-bold mb-4 gradient-text">10M+</div>
+                    <h3 class="text-xl font-bold mb-2">Étudiants</h3>
+                    <p class="text-gray-300">
+                        Potentiel d'impact avec EduShare dans le système éducatif africain
+                    </p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-5xl font-bold mb-4 gradient-text">50+</div>
+                    <h3 class="text-xl font-bold mb-2">Villes</h3>
+                    <p class="text-gray-300">
+                        Adoption possible de SecurLog pour la sécurité urbaine
+                    </p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-5xl font-bold mb-4 gradient-text">5M+</div>
+                    <h3 class="text-xl font-bold mb-2">Personnes</h3>
+                    <p class="text-gray-300">
+                        Avec un handicap qui pourraient bénéficier de WithSign
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-gradient-to-r from-[#16213e] to-[#0f3460] rounded-xl p-8 md:p-12" data-aos="fade-up">
+                <h3 class="text-2xl font-bold mb-6">Scaling avec Investissement</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="flex items-start mb-6">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 bg-[#ff6b6b] rounded-full flex items-center justify-center">
+                                    <i data-feather="dollar-sign" class="w-5 h-5 text-white"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-bold mb-2">Phase 1: Seed (2026)</h4>
+                                <p class="text-gray-300">
+                                    $500k pour étendre l'équipe et finaliser les MVP
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 bg-[#ff6b6b] rounded-full flex items-center justify-center">
+                                    <i data-feather="users" class="w-5 h-5 text-white"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-bold mb-2">Phase 2: Growth (2027-28)</h4>
+                                <p class="text-gray-300">
+                                    $5M pour l'expansion régionale et le recrutement
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-start mb-6">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 bg-[#ff6b6b] rounded-full flex items-center justify-center">
+                                    <i data-feather="globe" class="w-5 h-5 text-white"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-bold mb-2">Phase 3: Scale (2029+)</h4>
+                                <p class="text-gray-300">
+                                    $20M pour une présence panafricaine et des partenariats stratégiques
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 bg-[#ff6b6b] rounded-full flex items-center justify-center">
+                                    <i data-feather="award" class="w-5 h-5 text-white"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-bold mb-2">Objectif 2030</h4>
+                                <p class="text-gray-300">
+                                    Leader incontesté de l'IA en Afrique francophone
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Section -->
+    <section id="investir" class="py-20 px-4" style="background-color: #0f3460;">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Pourquoi <span class="gradient-text">Investir</span> ?</h2>
+                <div class="w-24 h-1 bg-[#ff6b6b] mx-auto mb-8"></div>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Une opportunité unique de participer à la construction de l'écosystème IA africain dès le début.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-[#16213e] p-8 rounded-xl" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center">
+                        <i data-feather="clock" class="w-8 h-8 mr-3 text-[#ff6b6b]"></i>
+                        Timing stratégique
+                    </h3>
+                    <p class="text-gray-300">
+                        Le marché africain de l'IA est encore jeune, avec peu de compétition sérieuse. Premier entrant avantage.
+                    </p>
+                </div>
+                <div class="bg-[#16213e] p-8 rounded-xl" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center">
+                        <i data-feather="layers" class="w-8 h-8 mr-3 text-[#ff6b6b]"></i>
+                        Produits scalables
+                    </h3>
+                    <p class="text-gray-300">
+                        Nos solutions sont conçues dès l'origine pour une adoption massive avec des coûts marginaux faibles.
+                    </p>
+                </div>
+                <div class="bg-[#16213e] p-8 rounded-xl" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center">
+                        <i data-feather="star" class="w-8 h-8 mr-3 text-[#ff6b6b]"></i>
+                        Impact social
+                    </h3>
+                    <p class="text-gray-300">
+                        Au-delà des rendements, l'opportunité de participer à l'autonomie numérique d'un continent.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-gradient-to-r from-[#ff6b6b] to-[#f8c4d8] rounded-xl p-8 md:p-12 text-center" data-aos="fade-up">
+                <h3 class="text-2xl md:text-3xl font-bold mb-6">Prêt à rejoindre notre aventure ?</h3>
+                <p class="text-white mb-8 max-w-2xl mx-auto">
+                    Nous recherchons des investisseurs visionnaires qui croient au potentiel de l'Afrique et veulent participer à cette révolution technologique dès le début.
+                </p>
+                <a href="#contact" class="inline-block px-8 py-3 bg-white text-[#ff6b6b] font-semibold rounded-full hover:bg-opacity-90 transition-all duration-300">
+                    Discutons-en
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Équipe & <span class="gradient-text">Recrutement</span></h2>
+                <div class="w-24 h-1 bg-[#ff6b6b] mx-auto mb-8"></div>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Nous construisons une équipe d'exception pour réaliser notre vision ambitieuse.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div data-aos="fade-right">
+                    <div class="bg-[#16213e] rounded-xl p-8">
+                        <div class="flex items-center mb-6">
+                            <img src="http://static.photos/people/320x240/1" alt="Marino ATOHOUN" class="w-20 h-20 rounded-full mr-6">
+                            <div>
+                                <h3 class="text-2xl font-bold">Marino ATOHOUN</h3>
+                                <p class="text-[#ff6b6b]">Fondateur & CEO</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">
+                            Entrepreneur visionnaire avec une passion pour l'innovation technologique et le développement de l'Afrique.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">
+                                <i data-feather="linkedin" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">
+                                <i data-feather="twitter" class="w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left">
+                    <h3 class="text-2xl font-bold mb-6">Nous recrutons !</h3>
+                    <p class="text-gray-300 mb-8">
+                        Rejoignez-nous à la racine de l'aventure et participez à la construction d'un leader africain de l'IA.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="w-5 h-5 text-[#ff6b6b] mr-3 mt-1"></i>
+                            <span class="text-gray-300">CTO expérimenté(e) en IA/ML</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="w-5 h-5 text-[#ff6b6b] mr-3 mt-1"></i>
+                            <span class="text-gray-300">Directeur Exécutif pour la croissance</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="w-5 h-5 text-[#ff6b6b] mr-3 mt-1"></i>
+                            <span class="text-gray-300">Responsable RH et Talent</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="w-5 h-5 text-[#ff6b6b] mr-3 mt-1"></i>
+                            <span class="text-gray-300">Développeurs Full-Stack et IA</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="inline-block mt-6 px-6 py-2 border-2 border-[#ff6b6b] text-[#ff6b6b] font-semibold rounded-full hover:bg-[#ff6b6b] hover:text-white transition-all duration-300">
+                        Postuler
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4" style="background-color: #16213e;">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Contactez-<span class="gradient-text">nous</span></h2>
+                <div class="w-24 h-1 bg-[#ff6b6b] mx-auto mb-8"></div>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Prêt à investir, collaborer ou rejoindre notre équipe ? Parlons-en !
+                </p>
+            </div>
+
+            <form class="bg-[#0f3460] rounded-xl p-8 md:p-12" data-aos="fade-up">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block text-gray-300 mb-2">Nom complet</label>
+                        <input type="text" id="name" class="w-full bg-[#16213e] border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[#ff6b6b] transition-all duration-300">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-300 mb-2">Email</label>
+                        <input type="email" id="email" class="w-full bg-[#16213e] border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[#ff6b6b] transition-all duration-300">
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label for="subject" class="block text-gray-300 mb-2">Sujet</label>
+                    <select id="subject" class="w-full bg-[#16213e] border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[#ff6b6b] transition-all duration-300">
+                        <option value="">Sélectionnez une option</option>
+                        <option value="investment">Opportunité d'investissement</option>
+                        <option value="partnership">Partenariat commercial</option>
+                        <option value="career">Rejoindre l'équipe</option>
+                        <option value="other">Autre demande</option>
+                    </select>
+                </div>
+                <div class="mb-8">
+                    <label for="message" class="block text-gray-300 mb-2">Message</label>
+                    <textarea id="message" rows="5" class="w-full bg-[#16213e] border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-[#ff6b6b] transition-all duration-300"></textarea>
+                </div>
+                <button type="submit" class="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-[#ff6b6b] to-[#f8c4d8] text-white font-semibold rounded-full hover:shadow-lg transition-all duration-300">
+                    Envoyer le message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 bg-[#0f3460]">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-2"><span class="gradient-text">BlackBenAI</span></h3>
+                    <p class="text-gray-400">Construire l'avenir de l'IA en Afrique</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">
+                        <i data-feather="facebook" class="w-5 h-5"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">
+                        <i data-feather="twitter" class="w-5 h-5"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">
+                        <i data-feather="linkedin" class="w-5 h-5"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">
+                        <i data-feather="github" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 mb-4 md:mb-0">
+                    &copy; 2025 BlackBenAI. Tous droits réservés.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">Mentions légales</a>
+                    <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">Confidentialité</a>
+                    <a href="#" class="text-gray-400 hover:text-[#ff6b6b] transition-colors duration-300">Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Initialize Vanta.js
+        VANTA.GLOBE({
+            el: "#vanta-globe",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: "#ff6b6b",
+            backgroundColor: "#1a1a2e",
+            size: 0.8
+        });
+
+        // Initialize Feather Icons
+        feather.replace();
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
